@@ -5,39 +5,10 @@
 ├── create.html
 ├── login.html
 ├── register.html
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── script.js   ✅ PUT IT HERE
-│
-├── api/
-│   ├── config.php
-│   ├── login.php
-│   ├── register.php
-│   ├── logout.php
-│   ├── me.php
-│   ├── getPosts.php
-│   ├── getPost.php
-│   ├── createPost.php
-│   └── editPost.php
-│
-├── data/
+ 
 │   └── posts.json
 
-
-/project
- ├── api/
- │   ├── config.php
- │   ├── login.php
- │   ├── createPost.php
- │   ├── deletePost.php
- │   ├── getPosts.php
- │   └── me.php
- ├── data/posts.json
- ├── uploads/
- ├── assets/js/script.js
+ 
  ├── index.html
  ├── create.html
  ├── login.html
@@ -52,3 +23,4 @@ CREATE TABLE users (
   password VARCHAR(255) NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
