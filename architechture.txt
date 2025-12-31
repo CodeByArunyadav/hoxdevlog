@@ -1,0 +1,35 @@
+/ (project root)
+│
+├── index.html
+├── post.html
+├── create.html
+├── login.html
+├── register.html
+│
+├── api/ (PHP Backend)
+│   ├── config.php
+│   ├── me.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── register.php
+│   ├── getPosts.php
+│   ├── getPost.php
+│   ├── createPost.php
+│   └── updatePost.php
+│
+├── uploads/
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       ├── app.js              🌍 main global logic
+│       ├── api.js              🔐 helper for API + session
+│       ├── ui.js               🧭 navbar, login UI visibility
+│       ├── pages/
+│       │    ├── home.js        🏠 index.html
+│       │    ├── post.js        📄 post.html
+│       │    ├── create.js      ✏ create/edit page
+│       │    ├── login.js       🔑 login page
+│       │    └── register.js    🆕 register page
+│       └── script.js           ⚠ loads & routes all pages

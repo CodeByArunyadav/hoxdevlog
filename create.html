@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write New Post | HoxCloud</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+</head>
+<body id="create-page">
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">@HoxCloud</a>
+            <ul class="nav-links">
+                 				
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container page-content">
+        <div class="form-container">
+            <h1>Create New Article</h1>
+            <p class="form-subtitle">Share your knowledge with the developer community.</p>
+            
+            <form id="create-post-form">
+                <div class="form-group">
+                    <label for="title">Article Title</label>
+                    <input type="text" id="title" name="title" placeholder="e.g., Understanding Closures in JavaScript" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="category">Language/Category</label>
+                        <select id="category" name="category" required>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Python">Python</option>
+                            <option value="Rust">Rust</option>
+                            <option value="Go">Go</option>
+                            <option value="DevOps">DevOps</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="author">Author Name</label>
+                        <input type="text" id="author" name="author" placeholder="John Doe" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="content">Content (Markdown supported)</label>
+                    <textarea id="content"  name="content" rows="12" placeholder="Write your technical article here..." required></textarea>
+                </div>
+				<div class="form-group">
+				     <input type="file" name="image" accept="image/*" required>
+                 </div>
+                <button type="submit" class="btn-submit">Publish Article</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="copyright text-center">
+                &copy; 2023 HoxCloud. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

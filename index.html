@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoxCloud | Technical Programming Blog</title>
+     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     
+</head>
+<body id="home-page">
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">@HoxCloud</a>
+            <ul id="nav-links"  class="nav-links">
+              <!--  <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="create.html" class="btn-primary">Write Post</a></li>
+				-->
+            </ul>
+            <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Master the Art of Code</h1>
+            <p>Deep dives into JavaScript, Python, Rust, and modern software architecture.</p>
+            <a href="#latest-posts" class="btn-secondary">Read Articles</a>
+        </div>
+    </header>
+
+     <main id="latest-posts">
+    <div class="container">
+        <div class="section-header">
+            <h2>Latest Articles</h2>
+            <div class="filter-tags">
+                <button class="tag active" data-filter="all">All</button>
+                <button class="tag" data-filter="JavaScript">Java</button>
+                <button class="tag" data-filter="Python">Python</button>
+                <button class="tag" data-filter="Rust">JavaScript</button>
+            </div>
+        </div>
+
+        <div class="posts-grid" id="posts-container">
+            <!-- Posts will be injected here via JavaScript -->
+        </div>
+    </div>
+</main>
+
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>HoxCloud</h3>
+                <p>Building the future, one line of code at a time.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Links</h4>
+                <a href="index.html">Home</a>
+                <a href="create.html">Write</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2023 HoxCloud. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

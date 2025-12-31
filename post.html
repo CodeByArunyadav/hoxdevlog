@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article View | HoCloud</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="post-page">
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">@HoCloud</a>
+            <ul class="nav-links">
+               <!-- <li><a href="index.html">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="create.html" class="btn-primary">Write Post</a></li>
+				-->
+            </ul>
+        </div>
+    </nav>
+
+   <main id="article-page">
+    <div class="container article-container">
+        <article id="full-article">
+            <!-- Content injected via JS -->
+            <div class="loading">Loading article...</div>
+        </article>
+
+        <section class="comments-section">
+            <h3>Discussion</h3>
+            <form id="comment-form" class="comment-form">
+                <textarea placeholder="Add to the discussion..." required></textarea>
+                <button type="submit" class="btn-secondary">Post Comment</button>
+            </form>
+
+            <div id="comments-list">
+                <!-- Comments injected here -->
+                <div class="comment">
+                    <div class="comment-header">
+                        <strong>TechReader</strong>
+                        <span>2 hours ago</span>
+                    </div>
+                    <p>Great explanation! This really helped me understand the concept.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+
+    <footer>
+        <div class="container">
+            <div class="copyright text-center">
+                &copy; 2023 HoCloud. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
