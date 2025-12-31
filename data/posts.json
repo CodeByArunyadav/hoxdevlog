@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1766654505,
+        "title": "sadsa",
+        "content": "fsdfdsf",
+        "category": "JavaScript",
+        "image": "uploads\/694d02296756d4.87275976.jpg",
+        "author": "avika",
+        "author_id": 2,
+        "created_at": "2025-12-25 10:21:45"
+    },
+    {
+        "id": 1766654546,
+        "title": "Avika first post cerated",
+        "content": "fdsdfds",
+        "category": "JavaScript",
+        "image": "uploads\/694d02526070e7.04543766.jpg",
+        "author": "avika",
+        "author_id": 2,
+        "created_at": "2025-12-25 10:22:26"
+    },
+    {
+        "id": 1766656153,
+        "title": "sdfsd",
+        "content": "sfdsdfsdf",
+        "category": "JavaScript",
+        "image": "uploads\/694d0899344429.70194322.jpg",
+        "author": "Arun Yadav",
+        "author_id": 1,
+        "created_at": "2025-12-25 10:49:13"
+    },
+    {
+        "id": 1766656713,
+        "title": "Arun yadav",
+        "content": "asdsadas",
+        "category": "JavaScript",
+        "image": "uploads\/694d0ac95273c0.78295565.jpg",
+        "author": "Arun Yadav",
+        "author_id": 1,
+        "created_at": "2025-12-25 10:58:33"
+    },
+    {
+        "id": 1766658102,
+        "title": "ewrew",
+        "content": "ttewtwe",
+        "category": "JavaScript",
+        "image": "uploads\/694d103601ca11.19739046.jpg",
+        "author": "avika",
+        "author_id": 2,
+        "created_at": "2025-12-25 11:21:42"
+    },
+    {
+        "id": 1766660401,
+        "title": "fhgfghj",
+        "content": "vhjgb",
+        "category": "JavaScript",
+        "image": "uploads\/694d19318983d1.84719319.jpg",
+        "author": "avika",
+        "author_id": 2,
+        "created_at": "2025-12-25 12:00:01"
+    },
+    {
+        "id": 1766661960,
+        "title": "sadaD",
+        "content": "DASDSA",
+        "category": "JavaScript",
+        "image": "uploads\/694d1f48e09d01.53798065.jpg",
+        "author": "avika",
+        "author_id": 2,
+        "created_at": "2025-12-25 12:26:00"
+    },
+    {
+        "id": 1766661984,
+        "title": "SADAS",
+        "content": "ASDSADSAC aVIKA",
+        "category": "JavaScript",
+        "image": "uploads\/694d1f60c9afe2.18963587.jpg",
+        "author": "avika",
+        "author_id": 2,
+        "created_at": "2025-12-25 12:26:24"
+    },
+    {
+        "id": 1766669554,
+        "title": "fddsf",
+        "content": "sfdasadf",
+        "category": "JavaScript",
+        "image": "uploads\/694d3cf28c7728.01738059.jpg",
+        "author": "avika",
+        "author_id": 2,
+        "created_at": "2025-12-25 14:32:34"
+    },
+    {
+        "id": 1766683452,
+        "title": "sASasArun",
+        "content": "ghghjk",
+        "category": "Python",
+        "image": "uploads\/694d733c71d135.75018973.jpg",
+        "author": "Arun Yadav",
+        "author_id": 1,
+        "created_at": "2025-12-25 18:24:12"
+    },
+    {
+        "id": 1766684676,
+        "title": "hello this is not change yet",
+        "content": "fsfsdfsdfsd",
+        "category": "JavaScript",
+        "image": "uploads\/694d78044d76f2.23811475.jpg",
+        "author": "avika",
+        "author_id": 2,
+        "created_at": "2025-12-25 18:44:36"
+    }
+]

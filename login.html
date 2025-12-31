@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | DevLog</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="login-page">
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">@HoxCloud</a>
+            <ul class="nav-links">
+              <!--  <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html" class="active btn-primary">Login</a></li>
+				-->
+            </ul>
+            <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <main class="container page-content">
+        <div class="form-container" style="max-width: 500px;">
+            <h1 style="text-align: center; margin-bottom: 1rem;">Welcome Back</h1>
+            <p class="form-subtitle" style="text-align: center;">Sign in to access your account</p>
+            
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <button type="submit" class="btn-submit">Sign In</button>
+                
+                <p style="margin-top: 1.5rem; text-align: center; color: var(--text-muted);">
+                    Don't have an account? <a href="register.html" style="color: var(--primary); text-decoration: none; font-weight: 600;">Register here</a>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="copyright text-center">
+                &copy; 2023 HoxCloud. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

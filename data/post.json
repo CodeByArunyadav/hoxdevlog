@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Understanding Async/Await in JavaScript",
+        "category": "JavaScript",
+        "author": "Sarah Dev",
+        "content": "Asynchronous programming is a fundamental concept in JavaScript...",
+        "image": "images/js-code.jpg",
+        "date": "Oct 24, 2023"
+    },
+    {
+        "id": 2,
+        "title": "Python List Comprehensions Explained",
+        "category": "Python",
+        "author": "Mike Py",
+        "content": "List comprehensions provide a concise way to create lists...",
+        "image": "images/python-code.jpg",
+        "date": "Oct 22, 2023"
+    },
+    {
+        "id": 3,
+        "title": "Getting Started with Rust Ownership",
+        "category": "Rust",
+        "author": "Ferris Crab",
+        "content": "Ownership is Rust's most unique feature...",
+        "image": "images/rust-code.jpg",
+        "date": "Oct 20, 2023"
+    }
+]
